@@ -115,6 +115,11 @@
 </body>
 
 <script>
+    $(document).ready(function() {
+        if ($(window).width() <= 425) {
+            $(".row").css("margin", "10px 1px 10px 1px")
+        }
+    });
 </script>
 
 </html>
